@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/Scripts/Monster/MonsterBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/battle/GameShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/battle/ShootConfig.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/battle/ShootFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/battle/ShootUIFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ui/UI_Main/UIMain.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game/Resources/Scripts/LWindow/LWindowManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster/MonsterBase3d.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

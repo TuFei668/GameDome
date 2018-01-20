@@ -65,6 +65,7 @@ public class DynamicFileControl {
 			}
 			catch(System.Exception e)
 			{
+				Debug.Log(e.ToString());
 			}
 		}
 
@@ -80,6 +81,7 @@ public class DynamicFileControl {
 		}
 		catch(System.Exception e)
 		{
+			Debug.Log(e.ToString());
 		}
 
 		return bin;

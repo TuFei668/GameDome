@@ -150,6 +150,7 @@ public class DynamicFileDownload {
 		}
 		catch(System.Exception e)
 		{
+			Debug.Log(e.ToString());
 			return false;
 		}
 	}

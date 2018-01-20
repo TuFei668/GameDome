@@ -10,22 +10,23 @@ public class ParticleHelper {
 
 		foreach(ParticleSystem ps in particleSystems)
 		{
-			if(ps.enableEmission)
+			if(ps.emission.enabled)
 			{
-				if(ps.loop)
+				
+				if(ps.main.loop)
 				{
 
 					return -1f;
 				}
 
 				float dunration = 0f;
-				if(ps.emissionRate <=0)
+				if(ps.emission.rateOverTimeMultiplier <=0)
 				{
-					dunration = ps.startDelay + ps.startLifetime;
+					dunration = ps.main.startDelay.constant + ps.main.startLifetime.constant;
 				}
 				else
 				{
-					dunration = ps.startDelay + Mathf.Max(ps.duration, ps.startLifetime);
+					dunration = ps.main.startDelay.constant  + Mathf.Max(ps.main.duration, ps.main.startLifetime.constant);
 				}
 
 				if (dunration > maxDuration) 

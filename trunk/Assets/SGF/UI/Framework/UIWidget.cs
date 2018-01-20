@@ -15,7 +15,7 @@ namespace SGF.UI.Framework
         protected object m_openArg;
 
         /// <summary>
-        /// 调用它打开UIWindow
+        /// 调用它打开UIWidget
         /// </summary>
         /// <param name="arg"></param>
         public sealed override void Open(object arg = null)
@@ -31,7 +31,7 @@ namespace SGF.UI.Framework
         }
 
         /// <summary>
-        /// 调用它以关闭UIWindow
+        /// 调用它以关闭UIWidget
         /// </summary>
         public sealed override void Close(object arg = null)
         {
@@ -44,8 +44,6 @@ namespace SGF.UI.Framework
 
             OnClose(arg);
         }
-
-
 
     }
 }

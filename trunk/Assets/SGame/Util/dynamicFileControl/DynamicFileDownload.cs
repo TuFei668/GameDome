@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
-
+using SGame;
 public class DynamicFileDownload {
 
 	public enum STATE

@@ -69,7 +69,7 @@ namespace SGF.UI.Framework
                 return obj.gameObject;
             }
 
-            //Debuger.LogError(LOG_TAG, "Find() UI:{0} 不存在！", name);
+            Debuger.LogError(LOG_TAG, "Find() UI:{0} 不存在！", name);
             return null;
         }
 

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using SGame;
 public class DataManager {
 
 	private static DataManager _instance = null;

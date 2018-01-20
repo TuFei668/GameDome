@@ -4,6 +4,7 @@ using SGF.UI.Framework;
 using SGF.Module.Framework;
 using SGF.Network;
 using SGame;
+using SGame.Service.User;
 
 public class AppMain : MonoBehaviour {
 
@@ -11,8 +12,8 @@ public class AppMain : MonoBehaviour {
 	void Start () 
     {
 		Debuger.Log (Debuger.LogFileDir);
-
-       // AppConfig.Init();
+        Debuger.EnableLog = true;
+        AppConfig.Init();
 
 	    InitServices();
 	    InitBusiness();
@@ -30,7 +31,7 @@ public class AppMain : MonoBehaviour {
         UIManager.MainPage = UIDef.UIHomePage;
         UIManager.MainScene = "Main";
 
-       // UserManager.Instance.Init();
+        UserManager.Instance.Init();
 
       //  GameManager.Instance.Init();
     }
@@ -47,7 +48,11 @@ public class AppMain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(UIManager.Instance != null)
+                UIManager.Instance.GoBackPage();
+        }
 	}
 
 }

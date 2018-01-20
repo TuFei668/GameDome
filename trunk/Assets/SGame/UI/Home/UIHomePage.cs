@@ -1,7 +1,10 @@
 ﻿using SGF.Module.Framework;
 using SGF.UI.Framework;
-
+using SGame.Service.UserManager.Data;
+using SGame.Service.User;
 using UnityEngine.UI;
+using SGame.Module;
+using SGame.Game.Data;
 
 namespace SGame
 {
@@ -18,8 +21,8 @@ namespace SGame
 
         private void UpdateUserInfo()
         {
-           // UserData ud = UserManager.Instance.MainUserData;
-            txtUserInfo.text = "哈哈 lv.5";//ud.name + "(Lv."+ud.level+")";
+            UserData ud = UserManager.Instance.MainUserData;
+            txtUserInfo.text = ud.name + "(Lv."+ud.level+")";
         }
 
 
@@ -29,8 +32,8 @@ namespace SGame
             {
                 if ((int) o == 0)
                 {
-                   // HomeModule module = ModuleManager.Instance.GetModule(ModuleDef.HomeModule) as HomeModule;
-                   // module.TryReLogin();
+                    HomeModule module = ModuleManager.Instance.GetModule(ModuleDef.HomeModule) as HomeModule;
+                    module.TryReLogin();
                 }
             });
         }
@@ -38,18 +41,18 @@ namespace SGame
 
         private void OpenModule(string name, object arg = null)
         {
-            /* 
             var module = ModuleManager.Instance.GetModule("HomeModule") as HomeModule;
             if (module != null)
             {
                 module.OpenModule(name, arg);
             }
-            */
         }
 
 
         public void OnBtnSetting()
         {
+            UIManager.Instance.OpenWindow(UIDef.UILoginWnd,"啊哈哈");
+            return;
             OpenModule(ModuleDef.SettingModule);
         }
 
@@ -76,17 +79,17 @@ namespace SGame
 
         public void OnBtnEndlessPVE()
         {
-			//OpenModule(ModuleDef.PVEModule, (int)GameMode.EndlessPVE);
+			OpenModule(ModuleDef.PVEModule, (int)GameMode.EndlessPVE);
         }
 
         public void OnBtnTimelimitPVE()
         {
-			//OpenModule(ModuleDef.PVEModule, (int)GameMode.TimelimitPVE);
+			OpenModule(ModuleDef.PVEModule, (int)GameMode.TimelimitPVE);
         }
 
         public void OnBtnPVP()
         {
-            //OpenModule(ModuleDef.PVPModule, (int)GameMode.EndlessPVP);
+            OpenModule(ModuleDef.PVPModule, (int)GameMode.EndlessPVP);
         }
 
 

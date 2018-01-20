@@ -9,6 +9,7 @@ namespace SGame
 
         //模块UI
         public const string UILoginPage = "Login/UILoginPage";
+        public const string UILoginWnd = "Login/UILoginWindow";
         public const string UIHomePage = "Home/UIHomePage";
 
         public const string UIPVEGamePage = "PVE/UIPVEGamePage";
@@ -19,5 +20,6 @@ namespace SGame
 		public const string UIRoomFindWnd = "PVP/UIRoomFindWnd";
 
         public const string UIHostWnd = "Host/UIHostWnd";
+
     }
 }

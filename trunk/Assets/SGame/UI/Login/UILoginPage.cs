@@ -1,10 +1,9 @@
-﻿//using Snaker.Module;
-//using Snaker.Service.UserManager.Data;
+﻿using SGame.Module;
+using SGame.Service.UserManager.Data;
 using UnityEngine;
 using UnityEngine.UI;
 using SGF.UI.Framework;
 using SGF.Module.Framework;
-using SGame.Module;
 
 namespace SGame.UI.Login
 {
@@ -17,9 +16,9 @@ namespace SGame.UI.Login
         protected override void OnOpen(object arg)
         {
             base.OnOpen(arg);
-           // UserData ud = AppConfig.Value.mainUserData;
-          //  inputName.text = ud.name;
-           // inputId.text = ud.id.ToString();
+            UserData ud = AppConfig.Value.mainUserData;
+            inputName.text = ud.name;
+            inputId.text = ud.id.ToString();
 
         }
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using SGame;
 public class HttpClientHelper {
 
 	private const string HTTP_OBJECT_PATH_NAME = "profab/system/PersistHTTPClient";

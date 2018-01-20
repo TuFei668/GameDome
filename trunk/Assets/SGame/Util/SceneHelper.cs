@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-
+using SGame;
 public class SceneHelper {
 
 	private static string currentSceneName;

@@ -1,8 +1,8 @@
-﻿//using Snaker.Service.UserManager.Data;
+﻿using SGame.Service.UserManager.Data;
 using SGF.Module.Framework;
 using SGF.UI.Framework;
 
-//using Snaker.Service.User;
+using SGame.Service.User;
 
 namespace SGame.Module
 {
@@ -26,7 +26,7 @@ namespace SGame.Module
         /// <param name="pwd"></param>
         public void Login(uint id, string name, string pwd)
         {
-            /* 
+            
             //由于我们暂时没有服务端，所以这里并不真正向服务器发协议
             //而是假设已经收到服务端登录成功的协议
             UserData ud = new UserData();
@@ -36,18 +36,18 @@ namespace SGame.Module
 
             //假设登录成功了
             OnLoginSuccess(ud);
-            */
+            
 
         }
 
-        private void OnLoginSuccess()//UserData ud)
+        private void OnLoginSuccess(UserData ud)
         {
-            /* 
+            
             UserManager.Instance.UpdateMainUserData(ud);
 
             AppConfig.Value.mainUserData = UserManager.Instance.MainUserData;
             AppConfig.Save();
-*/
+
             //将登录成功事件通知给整个游戏
             GlobalEvent.onLogin.Invoke(true);
 

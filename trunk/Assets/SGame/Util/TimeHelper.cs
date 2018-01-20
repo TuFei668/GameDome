@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
-
+using SGame;
 public class TimeHelper {
 
 	public static float deltaTime

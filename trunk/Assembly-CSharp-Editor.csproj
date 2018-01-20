@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Util\Editor\CameraAdjust.cs" />
+     <Compile Include="Assets\SGame\Util\Editor\CameraAdjust.cs" />
      <None Include="Assets\SGF\Network\KCP\LICENSE.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -111,11 +111,11 @@
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
- </Reference>
  <Reference Include="zxing.unity">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/zxing.unity.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
  </Reference>
  <Reference Include="Debuger">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/Debuger.dll</HintPath>

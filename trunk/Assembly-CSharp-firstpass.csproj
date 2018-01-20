@@ -72,11 +72,11 @@
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
- </Reference>
  <Reference Include="zxing.unity">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/zxing.unity.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
  </Reference>
  <Reference Include="Debuger">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/Debuger.dll</HintPath>

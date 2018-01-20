@@ -128,46 +128,55 @@
      <Compile Include="Assets\SGF\Unity\SetPropertyAttribute.cs" />
      <Compile Include="Assets\SGF\Unity\VectorExtensions.cs" />
      <Compile Include="Assets\SGF\Utils\URLUtils.cs" />
-     <Compile Include="Assets\Scripts\AppConfig.cs" />
-     <Compile Include="Assets\Scripts\Monster\MonsterBase.cs" />
-     <Compile Include="Assets\Scripts\Monster\MonsterBase3d.cs" />
-     <Compile Include="Assets\Scripts\UI\UIAnch.cs" />
-     <Compile Include="Assets\Scripts\UI\User.cs" />
-     <Compile Include="Assets\Scripts\UI\testData.cs" />
-     <Compile Include="Assets\Scripts\Util\AngleHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\ArrayHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\Assert.cs" />
-     <Compile Include="Assets\Scripts\Util\Bezier.cs" />
-     <Compile Include="Assets\Scripts\Util\GZipHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\GeometryHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\JsonReader.cs" />
-     <Compile Include="Assets\Scripts\Util\ListHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\MathHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\ParticleHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\PlayerPrefsManager\CryptoPrefs.cs" />
-     <Compile Include="Assets\Scripts\Util\PlayerPrefsManager\PlayerPrefsExtend.cs" />
-     <Compile Include="Assets\Scripts\Util\RandomHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\RenderHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\ResourceHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\SceneHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\StringHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\TimeHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\TimerEx.cs" />
-     <Compile Include="Assets\Scripts\Util\Trace.cs" />
-     <Compile Include="Assets\Scripts\Util\VectorHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\dynamicFileControl\DynamicFileControl.cs" />
-     <Compile Include="Assets\Scripts\Util\dynamicFileControl\DynamicFileDownload.cs" />
-     <Compile Include="Assets\Scripts\Util\network\HttpClient.cs" />
-     <Compile Include="Assets\Scripts\Util\network\HttpClientHelper.cs" />
-     <Compile Include="Assets\Scripts\Util\network\HttpClient_thread.cs" />
-     <Compile Include="Assets\Scripts\Util\state\IState.cs" />
-     <Compile Include="Assets\Scripts\Util\state\StateMachine.cs" />
-     <Compile Include="Assets\Scripts\data\DataBuilding.cs" />
-     <Compile Include="Assets\Scripts\data\DataBuildingGroup.cs" />
-     <Compile Include="Assets\Scripts\data\DataConfig.cs" />
-     <Compile Include="Assets\Scripts\data\DataManager.cs" />
-     <Compile Include="Assets\Scripts\data\DataTest.cs" />
-     <Compile Include="Assets\Scripts\data\DataTestGroup.cs" />
+     <Compile Include="Assets\SGame\AppConfig.cs" />
+     <Compile Include="Assets\SGame\AppMain.cs" />
+     <Compile Include="Assets\SGame\Module\GlobalEvent.cs" />
+     <Compile Include="Assets\SGame\Module\Home\HomeModule.cs" />
+     <Compile Include="Assets\SGame\Module\Host\HostModule.cs" />
+     <Compile Include="Assets\SGame\Module\Login\LoginModule.cs" />
+     <Compile Include="Assets\SGame\Module\ModuleDef.cs" />
+     <Compile Include="Assets\SGame\UI\Common\UIMsgBox.cs" />
+     <Compile Include="Assets\SGame\UI\Home\UIHomePage.cs" />
+     <Compile Include="Assets\SGame\UI\Login\UILoginPage.cs" />
+     <Compile Include="Assets\SGame\UI\UIAPI.cs" />
+     <Compile Include="Assets\SGame\UI\UIAnch.cs" />
+     <Compile Include="Assets\SGame\UI\UIDef.cs" />
+     <Compile Include="Assets\SGame\UI\User.cs" />
+     <Compile Include="Assets\SGame\UI\testData.cs" />
+     <Compile Include="Assets\SGame\Util\AngleHelper.cs" />
+     <Compile Include="Assets\SGame\Util\ArrayHelper.cs" />
+     <Compile Include="Assets\SGame\Util\Assert.cs" />
+     <Compile Include="Assets\SGame\Util\Bezier.cs" />
+     <Compile Include="Assets\SGame\Util\GZipHelper.cs" />
+     <Compile Include="Assets\SGame\Util\GeometryHelper.cs" />
+     <Compile Include="Assets\SGame\Util\JsonReader.cs" />
+     <Compile Include="Assets\SGame\Util\ListHelper.cs" />
+     <Compile Include="Assets\SGame\Util\MathHelper.cs" />
+     <Compile Include="Assets\SGame\Util\ParticleHelper.cs" />
+     <Compile Include="Assets\SGame\Util\PlayerPrefsManager\CryptoPrefs.cs" />
+     <Compile Include="Assets\SGame\Util\PlayerPrefsManager\PlayerPrefsExtend.cs" />
+     <Compile Include="Assets\SGame\Util\RandomHelper.cs" />
+     <Compile Include="Assets\SGame\Util\RenderHelper.cs" />
+     <Compile Include="Assets\SGame\Util\ResourceHelper.cs" />
+     <Compile Include="Assets\SGame\Util\SceneHelper.cs" />
+     <Compile Include="Assets\SGame\Util\StringHelper.cs" />
+     <Compile Include="Assets\SGame\Util\TimeHelper.cs" />
+     <Compile Include="Assets\SGame\Util\TimerEx.cs" />
+     <Compile Include="Assets\SGame\Util\Trace.cs" />
+     <Compile Include="Assets\SGame\Util\VectorHelper.cs" />
+     <Compile Include="Assets\SGame\Util\dynamicFileControl\DynamicFileControl.cs" />
+     <Compile Include="Assets\SGame\Util\dynamicFileControl\DynamicFileDownload.cs" />
+     <Compile Include="Assets\SGame\Util\network\HttpClient.cs" />
+     <Compile Include="Assets\SGame\Util\network\HttpClientHelper.cs" />
+     <Compile Include="Assets\SGame\Util\network\HttpClient_thread.cs" />
+     <Compile Include="Assets\SGame\Util\state\IState.cs" />
+     <Compile Include="Assets\SGame\Util\state\StateMachine.cs" />
+     <Compile Include="Assets\SGame\data\DataBuilding.cs" />
+     <Compile Include="Assets\SGame\data\DataBuildingGroup.cs" />
+     <Compile Include="Assets\SGame\data\DataConfig.cs" />
+     <Compile Include="Assets\SGame\data\DataManager.cs" />
+     <Compile Include="Assets\SGame\data\DataTest.cs" />
+     <Compile Include="Assets\SGame\data\DataTestGroup.cs" />
      <None Include="Assets\SGF\Network\KCP\LICENSE.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -193,11 +202,11 @@
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
- </Reference>
  <Reference Include="zxing.unity">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/zxing.unity.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/protobuf-net.dll</HintPath>
  </Reference>
  <Reference Include="Debuger">
  <HintPath>/Users/dyss/MyGame/GameDome/trunk/Assets/Foundation/Debuger.dll</HintPath>

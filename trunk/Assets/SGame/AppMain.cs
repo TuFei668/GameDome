@@ -8,7 +8,6 @@ using SGame.Service.User;
 
 public class AppMain : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () 
     {
 		Debuger.Log (Debuger.LogFileDir);

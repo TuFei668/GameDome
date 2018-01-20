@@ -23,7 +23,7 @@
 ////////////////////////////////////////////////////////////////////
 /*
  * 描述：
- * 作者：slicol
+ * 作者：CFJ
 */
 using System;
 using System.Collections.Generic;
